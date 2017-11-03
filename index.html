@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Autumn</title>
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Playfair+Display:700" rel="stylesheet">
+</head>
+
+<body>
+  <article>
+    <div class="container">
+    <h1>Practice Manipulating Images with JavaScript</h1>
+      <p id="byline">Rachael Tonietto</p>
+      <p id="lead">In this week's lesson, I learned how to adapt existing JavaScript to my own work. In this case, this adaptation allowed for my images to fade unless a mouse is hovered over them. I wrote my own CSS to edit the look of the page, as well as used CSS provided by bootstrap. I used the bootstap grid system to make my images float to the left and stack on top of one another.</p>
+      <p id="instructions"><strong>Hover over the images</strong></p>
+    </div>
+
+      <div class="container">
+        <div class="row">
+          <section class="col-lg-6">
+            <img class="pushy fadeitem" id="fall1" src="images/fall1.jpg" alt="Photo: Fall items">
+            <p id="credit">Image courtesy of<a href="https://unsplash.com/photos/ukxAK0c2FqM"> Alisa Anton</a></p>
+          </section>
+
+        <section class="col-lg-6">
+          <img class="pushy fadeitem" id="fall4" src="images/fall4.jpg" alt="Photo: Dog enjoying Fall weather">
+          <p id="credit">Image courtesy of<a href="https://unsplash.com/photos/0qbAPZPgBZc"> Rachel Omnes</a></p>
+        </section>
+
+        <section class="col-lg-6">
+          <img class="pushy fadeitem" id="fall5" src="images/fall5.jpg" alt ="Photo: Lake on Fall day">
+          <p id="credit">Image courtesy of<a  href="https://unsplash.com/photos/vgxIfXwsUAE"> Hannu Keski-Hakuni</a></p>
+        </section>
+
+        <section class="col-lg-6">
+          <img class="pushy fadeitem" id="fall6" src="images/fall6.jpg" alt="Photo: Crispy colorful Fall leaves">
+          <p id="credit">Image courtesy of<a href ="https://unsplash.com/photos/O6N9RV2rzX8"> Jeremy Thomas</a></p>
+        </section>
+      </div><!--row-->
+      </div><!--container-->
+  </article>
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/autumn.js"></script>
+  <script src="scripts/bootstrap.js"></script>
+</body>
