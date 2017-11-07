@@ -13,14 +13,20 @@ body {
 }
 
 h1 {
+	text-align: center;
   color: #5D2234;
 }
 
 #byline {
+	text-align: center; 
   font-size: 1em;
 }
 
-#lead, #credit {
+#lead {
+  font-size: .8em;
+}
+
+.credit {
   font-size: .8em;
 }
 
@@ -29,6 +35,9 @@ h1 {
   color: #5D2234;
 }
 
+#git{
+  font-size: .8em;
+}
 
 #fall1 {
   max-width: 100%;
